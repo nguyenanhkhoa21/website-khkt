@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bản Tin</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .container {
+        max-width: 1200px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 20px;
+      }
+      .main-article {
+        grid-column: 1 / 2;
+      }
+      .main-article img {
+        border-radius: 5%;
+        width: 100%;
+        max-height: 20%; /* Giới hạn chiều cao cho ảnh chính */
+        object-fit: cover; /* Đảm bảo ảnh hiển thị đầy đủ trong giới hạn */
+      }
+      .main-article h2 {
+        font-size: 24px;
+        color: #333;
+      }
+      .main-article p {
+        font-size: 16px;
+        color: #555;
+      }
+      .sub-articles {
+        grid-column: 2 / 3;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 20px;
+      }
+      .sub-articles .sub-article {
+        align-items: center;
+        border-top: 1px solid #ddd;
+        padding-top: 10px;
+      }
+      .sub-articles img {
+        width: 100%; /* Đặt chiều rộng ảnh phụ nhỏ hơn */
+        height: auto;
+        object-fit: cover;
+        border-radius: 5%; /* Tạo góc bo tròn nhẹ */
+        margin-right: 15px;
+      }
+      .sub-articles h3 {
+        font-size: 18px;
+        color: #333;
+      }
+      .sub-articles p {
+        font-size: 14px;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-article">
+        <a href="news1.html">
+          <img
+            src="https://i1-vnexpress.vnecdn.net/2022/10/28/-7896-1666927533.jpg?w=1020&h=0&q=100&dpr=1&fit=crop&s=oPsRiP7lZsPLPQuc6XpyGA"
+            alt="Hình ảnh minh họa"
+          />
+        </a>
+        <h2>Những học sinh bạo lực, dễ khóc vì khủng hoảng tâm lý</h2>
+        <p>
+          Gần một năm nay, Hùng, học sinh lớp 8 tại Hải Dương, có xu hướng cư xử bạo lực với người thân, nhưng luôn lẩn tránh và sợ giao tiếp với người lạ...
+        </p>
+        <a href="news5.html">
+            <img src="https://tamly.com.vn/wp-content/uploads/2023/04/khung-hoang-tam-ly-o-hoc-sinh-lop-9-4.jpg" alt="">
+        </a>
+        <h2>
+          Khủng hoảng tâm lý ở học sinh đang ngày càng phức tạp
+        </h2>
+        <p>
+          TPO - "Ba thập kỷ trước, mối đe dọa lớn nhất với các em là rượu, thuốc lá, mang thai, các chất gây nghiện... nhưng ngày nay là sự lo lắng, trầm cảm, tự hại bản thân và các rối loạn tâm thần khác. Hiện tượng trầm cảm của học sinh ngày càng có diễn biến phức tạp, thậm chí, có những em vì vượt quá sức chịu đựng của bản thân đã dẫn tới nhiều hệ lụy đáng tiếc khác”.
+        </p>
+        <a href="news6.html">
+          <img src="https://media-cdn-v2.laodong.vn/storage/newsportal/2024/8/3/1375342/THS.BS-PHAM-VAN-GIAO-01.jpg" alt="">
+        </a>
+        <h2>
+          Tâm lý học đường ở Việt Nam đang căng thẳng và khủng hoảng
+        </h2>
+        <p>
+          ThS.BS Phạm Văn Giào cho biết, tâm lý học đường ở Việt Nam đang rất căng thẳng và khủng hoảng, gây áp lực lớn cho nhà trường, nhà chức trách và phụ huynh
+        </p>
+      </div>
+      <div class="sub-articles">
+        <div class="sub-article">
+          <a href="news2.html">
+            <img
+              src="https://cdn.nhathuoclongchau.com.vn/unsafe/800x0/https://cms-prod.s3-sgn09.fptcloud.com/tu_gay_thuong_tich_nguyen_nhan_trieu_chung_va_dieu_tri_2_774d7bce1a.jpg"
+              alt="Học sinh tự gây thương tích"
+            />
+          </a>
+          <div>
+            <h3>Nhiều học sinh 'có nguy cơ tự gây thương tích'</h3>
+            <p>
+              37% số học sinh có nguy cơ tự hủy hoại bản thân, 6,1% trong số này
+              đã tự gây thương tích...
+            </p>
+          </div>
+        </div>
+        <div class="sub-article">
+          <a href="news3.html">
+            <img
+              src="https://fathersofmercy.com/wp-content/uploads/2024/01/Sacrament-of-Confession-with-Jesus.jpeg"
+              alt="Tìm nơi thú tội"
+            />
+          </a>
+          <div>
+            <h3>Những đứa trẻ tìm nơi "thú tội"</h3>
+            <p>
+              Khi có vấn đề về tâm lý, một số trẻ nhờ các trang Confession tìm
+              người cho ý kiến hơn là trực tiếp tâm sự với cha mẹ, thầy cô...
+            </p>
+          </div>
+        </div>
+        <div class="sub-article">
+            <a href="news4.html">
+                <img src="https://quoctri.edu.vn/wp-content/uploads/2022/03/ap-luc-hoc-duong-la-gi.jpg.webp" alt="">
+            </a>
+          <h3>
+            Học sinh, sinh viên stress, trầm cảm: 'Hội chứng con vịt' và những
+            nỗi đau
+          </h3>
+          <p>
+            Những con vịt khi bơi trên mặt hồ, nhìn từ mặt nước thì con nào cũng
+            thật thư thái, không gian xung quanh thơ mộng, bình yên. Thế nhưng,
+            nhìn từ dưới mặt nước, chúng phải đạp chân không ngừng để bơi nhanh
+            về phía trước.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
